@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U/iUyxdIFu7nBYlsuRAU/e42Y5LUgMvu2rCkdEJ+nBY=",
+  "Hash": "jmEOFa5++W2PEZvd9AePxEyMEN0UIdGeZ3Hy4k+cTI0=",
   "Source": "atividade_veiculos",
   "BasePath": "_content/atividade_veiculos",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "atividade_veiculos\\wwwroot",
       "Source": "atividade_veiculos",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\",
       "BasePath": "_content/atividade_veiculos",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\rafag\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.8\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\atividade_veiculos.styles.css",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\atividade_veiculos.styles.css",
       "SourceId": "atividade_veiculos",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "atividade_veiculos.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\bundle\\atividade_veiculos.styles.css"
+      "OriginalItemSpec": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\atividade_veiculos.styles.css"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css",
       "SourceId": "atividade_veiculos",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "atividade_veiculos.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\app.css",
       "SourceId": "atividade_veiculos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "atividade_veiculos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "atividade_veiculos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\favicon.png",
       "SourceId": "atividade_veiculos",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\",
       "BasePath": "_content/atividade_veiculos",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

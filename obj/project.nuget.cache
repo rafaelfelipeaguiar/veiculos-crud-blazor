@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wMzdCY0wEA8=",
+  "dgSpecHash": "KEY7o1Lz0BY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\atividade_veiculos.csproj",
+  "projectFilePath": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\atividade_veiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafag\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\rafag\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

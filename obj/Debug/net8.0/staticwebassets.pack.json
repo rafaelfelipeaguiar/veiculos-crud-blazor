@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css",
+      "Id": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css",
       "PackagePath": "staticwebassets\\atividade_veiculos.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\app.css",
+      "Id": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

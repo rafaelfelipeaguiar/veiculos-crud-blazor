@@ -6681,11 +6681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\atividade_veiculos.csproj",
+      "projectUniqueName": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\atividade_veiculos.csproj",
       "projectName": "atividade_veiculos",
-      "projectPath": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\atividade_veiculos.csproj",
+      "projectPath": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\atividade_veiculos.csproj",
       "packagesPath": "C:\\Users\\rafag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\",
+      "outputPath": "C:\\Users\\rafag\\OneDrive\\Documentos\\IFRO\\POO\\Nova pasta\\veiculos-crud-blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafag\\AppData\\Roaming\\NuGet\\NuGet.Config",
