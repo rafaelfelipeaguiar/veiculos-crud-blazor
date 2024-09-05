@@ -1,0 +1,109 @@
+﻿@page "/veiculos/edit"
+
+@using atividade_veiculos.Services
+@inject VeiculoService VeiculoService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Editar Veículo</h1>
+
+@if (veiculo is null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm Model="veiculo" OnValidSubmit="UpdateVeiculo" @formname="edit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="mb-3">
+                    <label for="placa" class="form-label">Placa:</label>
+                    <InputText id="placa" @bind-Value="veiculo.Placa" class="form-control" />
+                    <ValidationMessage For="() => veiculo.Placa" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="anofabricacaomodelo" class="form-label">Ano de Fabricação/Modelo:</label>
+                    <InputText id="anofabricacaomodelo" @bind-Value="veiculo.AnoFabricacaoModelo" class="form-control" />
+                    <ValidationMessage For="() => veiculo.AnoFabricacaoModelo" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="modelo" class="form-label">Modelo:</label>
+                    <InputText id="modelo" @bind-Value="veiculo.Modelo" class="form-control" />
+                    <ValidationMessage For="() => veiculo.Modelo" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="chassis" class="form-label">Chassis:</label>
+                    <InputText id="chassis" @bind-Value="veiculo.Chassis" class="form-control" />
+                    <ValidationMessage For="() => veiculo.Chassis" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="renavamveiculo" class="form-label">Renavam:</label>
+                    <InputText id="renavamveiculo" @bind-Value="veiculo.RenavamVeiculo" class="form-control" />
+                    <ValidationMessage For="() => veiculo.RenavamVeiculo" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="idmarca" class="form-label">Marca (ID):</label>
+                    <InputNumber id="idmarca" @bind-Value="veiculo.IdMarca" class="form-control" />
+                    <ValidationMessage For="() => veiculo.IdMarca" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="idcor" class="form-label">Cor (ID):</label>
+                    <InputNumber id="idcor" @bind-Value="veiculo.IdCor" class="form-control" />
+                    <ValidationMessage For="() => veiculo.IdCor" class="text-danger" />
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-5">Salvar</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    private Veiculo? veiculo;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Busca o veículo via API com o ID passado
+            veiculo = await VeiculoService.GetVeiculoById(Id);
+
+            if (veiculo is null)
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar o veículo: {ex.Message}");
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task UpdateVeiculo()
+    {
+        try
+        {
+            // Atualiza o veículo via API
+            await VeiculoService.UpdateVeiculo(veiculo!);
+            NavigationManager.NavigateTo("/veiculos");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao atualizar veículo: {ex.Message}");
+        }
+    }
+}

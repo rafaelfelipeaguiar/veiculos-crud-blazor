@@ -1,0 +1,94 @@
+﻿@page "/veiculos"
+@inject IJSRuntime JS
+@using atividade_veiculos.Services
+@inject NavigationManager NavigationManager
+@inject VeiculoService VeiculoService
+
+<PageTitle>Lista de Veículos</PageTitle>
+
+<h1>Veículos</h1>
+
+@if (veiculos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else if (!veiculos.Any())
+{
+    <p><em>Nenhum veículo encontrado.</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Placa</th>
+                <th>Ano de Fabricação/Modelo</th>
+                <th>Modelo</th>
+                <th>Chassis</th>
+                <th>Renavam</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var veiculo in veiculos)
+            {
+                <tr>
+                    <td>@veiculo.Placa</td>
+                    <td>@veiculo.AnoFabricacaoModelo</td>
+                    <td>@veiculo.Modelo</td>
+                    <td>@veiculo.Chassis</td>
+                    <td>@veiculo.RenavamVeiculo</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" @onclick="() => EditVeiculo(veiculo.Id)">Editar</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => ConfirmDeleteVeiculo(veiculo.Id)">Deletar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    private List<Veiculo> veiculos = new List<Veiculo>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        veiculos = await VeiculoService.GetVeiculos();
+    }
+
+    private async Task ConfirmDeleteVeiculo(int id)
+    {
+        bool confirm = await JS.InvokeAsync<bool>("confirm", "Você tem certeza que deseja deletar este veículo?");
+        if (confirm)
+        {
+            await DeleteVeiculo(id);
+        }
+    }
+
+    private async Task DeleteVeiculo(int id)
+    {
+        try
+        {
+            await VeiculoService.DeleteVeiculo(id);
+            veiculos = veiculos.Where(v => v.Id != id).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao deletar o veículo: {ex.Message}");
+        }
+    }
+
+    private async Task EditVeiculo(int id)
+    {
+        try
+        {
+            NavigationManager.NavigateTo($"veiculos/edit?id={id}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao adicionar veículo: {ex.Message}");
+        }
+    }
+    
+}

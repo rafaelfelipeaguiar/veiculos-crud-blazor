@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atividade_veiculos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\atividade_veiculos.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rafag\\source\\repos\\atividade_veiculos\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.atividade_veiculos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.atividade_veiculos.props",
+      "PackagePath": "build\\atividade_veiculos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.atividade_veiculos.props",
+      "PackagePath": "buildMultiTargeting\\atividade_veiculos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.atividade_veiculos.props",
+      "PackagePath": "buildTransitive\\atividade_veiculos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
